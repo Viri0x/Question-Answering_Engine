@@ -1,0 +1,7 @@
+version: '2.3'
+services:
+  notebook:
+    build: .
+    ports:
+    - "8887:8888"
+    runtime: nvidia
